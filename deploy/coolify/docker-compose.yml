@@ -82,7 +82,7 @@ services:
       - no-new-privileges:true
 
   insforge:
-    image: ghcr.io/insforge/insforge-oss:latest
+    image: ghcr.io/insforge/insforge-oss:v2.3.3
     working_dir: /app
     restart: unless-stopped
     depends_on:
